@@ -10,6 +10,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation("com.github.doyaaaaaken:kotlin-csv-jvm:0.12.0")
     implementation("org.graphstream:gs-core:2.0")
     implementation("org.graphstream:gs-ui-swing:2.0")
 //    implementation("org.graphstream:gs-ui-javafx:2.0")
