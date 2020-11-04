@@ -15,5 +15,9 @@ fun main() {
     graph.addEdge("BC", "B", "C")
     graph.addEdge("CA", "C", "A")
 
+    for (node in graph) {
+        node.setAttribute("ui.label", "   ${node.id}")
+    }
+
     graph.display()
 }
